@@ -481,3 +481,45 @@ form textarea {
     margin-left: 25%;
   }
 }
+
+
+
+
+.exp-edu .box{
+  flex:1 1 40rem;
+  background-color: var(--primary-bg-color);
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  padding:.5rem 1.5rem;
+  margin:1.5rem;
+}
+.exp-edu .heading{
+  font-size: 30px;
+}
+.exp-edu .box .exp-box{
+  padding:0 1.8rem;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  border-left: .2rem solid var(--main-color);
+  position: relative;
+}
+.exp-edu .box .exp-box h3{
+  color:var(--main-color);
+  font-size: 25px;
+}
+
+.exp-edu .box .exp-box p{
+  color:var(--secondary-text-color);
+  font-size: 0.941rem;
+  padding:1rem 0;
+}
+
+.exp-edu .box .exp-box::before{
+  content:'';
+  position: absolute;
+  top:0; left: -1rem;
+  border-radius: 50%;
+  height: 2rem;
+  width: 2rem;
+  background: var(--main-color);
+}
