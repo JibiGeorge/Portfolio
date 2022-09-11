@@ -68,6 +68,7 @@ header.shadow {
   font-size: 1.61rem;
   font-weight: 600;
   color: var(--text-color);
+  font-family: vivaldi, serif;
 }
 .navbar {
   display: flex;
@@ -112,6 +113,7 @@ header.shadow {
 }
 .home-text h1 {
   font-size: var(--big-font);
+  font-family: vivaldi, serif;
 }
 .home-text h2 {
   font-size: 1.1rem;
