@@ -28,10 +28,6 @@ darkmode.onclick = () => {
     }
 }
 
-
-
-
-
 const scriptURL = 'https://script.google.com/macros/s/AKfycbxmZxFaHV7gZRjV4hgf2yymqp0TsqoQ3KlUh1yjF3XK-QBmbT5gy7k7IU4xzxSq12Tx/exec'
 const form = document.forms['contactform']
 
@@ -64,7 +60,7 @@ function validate() {
     //Email Validation
     if (email == "") {
         window.alert("Email is Required");
-        name.focus();
+        email.focus();
         return false;
     } 
     // else if (email.match(mailformat)) {
