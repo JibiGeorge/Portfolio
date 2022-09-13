@@ -300,6 +300,11 @@ span {
   place-items: center;
   margin-top: 2rem;
 }
+/* .error {
+  color: #ff3860;
+  font-size: 9px;
+  height: 13px;
+} */
 .contact-form form {
   display: flex;
   flex-direction: column;
@@ -525,3 +530,7 @@ form textarea {
   width: 2rem;
   background: var(--main-color);
 }
+
+
+
+

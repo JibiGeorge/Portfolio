@@ -48,7 +48,7 @@
         <div class="home-text">
             <span>Hello, I'm</span>
             <h1>Jibi George</h1>
-            <h2>MERN Stack Developer</h2>
+            <h2>FULL Stack Developer</h2>
             <p>Lorem ipsum dolor sit amet cons <br> adipisicing elit. Minima, consectetur <br> ullam?</p>
             <a href="#contact" class="btn">Contact Me</a>
         </div>
@@ -263,10 +263,14 @@
             <span>Connect With Me</span>
         </div>
         <div class="contact-form">
-            <form method="post" onclick="validation()" action="" name="contactform">
-                <input type="text" name="Name" placeholder="Your Name">
-                <input type="email" name="Email" id="" placeholder="Your Email">
-                <textarea name="Message" id="" cols="30" rows="10" placeholder="Write Message Here..."></textarea>
+            <form method="post" action="" id="form" name="contactform" >
+                <input type="text" id="name" name="Name" placeholder="Your Name">
+                <div class="error"></div>
+                <input type="email" name="Email" id="email" placeholder="Your Email">
+                <!-- <div class="error"></div> -->
+                <textarea name="Message" id="message" cols="30" rows="10"
+                    placeholder="Write Message Here..."></textarea>
+                <!-- <div class="error"></div> -->
                 <input type="submit" value="Send" class="contact-button">
             </form>
         </div>
